@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planet Earth</title>
-    <link rel="stylesheet" href="CSS/desing.css">
     <!-- Compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="CSS/desing.css">
 
 </head>
 <body>
 
     <header>
         <h1>Lesson 1</h1>
-        <h2>Leccion 1</h2>
+        <h2 id="hide"> Leccion 1</h2>
     </header>
 
     <main>
-        <div class="Paragraph" id="show">
+        <div class="Paragraph card-panel hoverable" id="show">
             <p>The third planet that <strong>orbits</strong> the <strong>Sun</strong> is <strong>Earth</strong>.
             It revolves around the Sun in an <strong>eliptical </strong> orbit and takes about 365 days to complete one revolution around the <strong>Sun</strong>.
             Earth also rolates about its axis. This <strong>rotation</strong> is the reason for day and night. Every 24 hours Earth completes one rotation.
             </p>
         </div>
 
-        <div>
-            <img src="CSS/img/planet.png" alt="">
+        <div id="earth" >
+            <img src="CSS/img/planet.png"  alt="">
         </div>
 
-        <div class="Paragraph" id="hide">
+        <div class="Paragraph card-panel hoverable" id="hide">
             <p>
             El tercer planeta que <strong>orbita</strong> alrededor del <strong>Sol</strong> es la <strong>Tierra</strong>.
             Gira alrededor del Sol en una orbita <strong>eliptica </strong> y le toma alrededor de 365 dias completar una traslasion alrededor del sol.
