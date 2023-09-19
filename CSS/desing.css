@@ -36,6 +36,18 @@ strong{
     background-color: #2E4CA6;
 }
 
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #19214E;
+}
+
+#Center-Part{
+    display: flex;
+    align-items: center;
+}
+
 #hide {
     /* display: ; */
 }
