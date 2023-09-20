@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: cursive;
 }
 
 body{
@@ -66,16 +67,18 @@ strong:hover{
     border-width: 10px;
     border-style:double;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     h1 {
-        font-size: 1.2rem; /* Adjust font size for small screens */
+        font-size: 1.2rem;
     }
 
     .Paragraph {
-        font-size: 0.9rem; /* Adjust font size for small screens */
+        font-size: 0.9rem;
+        margin: 5px;
+        padding: 5px;
     }
 
     .btn {
-        font-size: 0.9rem; /* Adjust font size for small screens */
+        font-size: 0.9rem;
     }
 }
