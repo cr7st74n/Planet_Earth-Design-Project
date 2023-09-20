@@ -1,18 +1,12 @@
-# Portfolio_CG_0.2
+# Lesson Earth Project
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)  
 
 ## About
-This is my new project that I wish to create a new idea to my portfolio and using new concepts of HTML.
+This is my project we will show a lesson of basic Astronomy, where the main topic is the Earth in his funciton sin the Solar System.
 
 ### Table of Contents
  * [About](#About)
-
- * [Criteria](#Criteria)
-
- * [Installation](#Installation)
-
- * [Usage](#Usage)
 
  * [License](#License)
 
@@ -22,15 +16,6 @@ This is my new project that I wish to create a new idea to my portfolio and usin
 
  * [Questions](#Questions)
 
-
-
-## Criteria
-Use of advance tags of HTML.
-
-## Installation
-
-
-## Usage
 
 
 ## License
@@ -43,15 +28,12 @@ Cristian Gonzalez
 
 
 ## Questions
- 
 
 https://github.com/cr7st74n
 
 cris-082011@hotmail.com
 
-## Project Link
-
 
 ## Project Deployment
-[Access here!]()
+[Access here!](https://cr7st74n.github.io/Planet_Earth-Design-Project/)
 

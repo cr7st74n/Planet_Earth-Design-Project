@@ -66,3 +66,16 @@ strong:hover{
     border-width: 10px;
     border-style:double;
 }
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.2rem; /* Adjust font size for small screens */
+    }
+
+    .Paragraph {
+        font-size: 0.9rem; /* Adjust font size for small screens */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Adjust font size for small screens */
+    }
+}
