@@ -9,82 +9,107 @@
 
     <link rel="stylesheet" href="CSS/desing.css">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 
-    <header>
+    <header id="init">
         <h1>Lesson 1</h1>
-        <h2 id="hide"> Leccion 1</h2>
     </header>
 
     <main>
         <div class="Paragraph card-panel hoverable" id="show">
-            <p>The third planet that <strong>orbits</strong> the <strong>Sun</strong> is <strong>Earth</strong>.
-            It revolves around the Sun in an <strong>eliptical </strong> orbit and takes about 365 days to complete one revolution around the <strong>Sun</strong>.
-            Earth also rolates about its axis. This <strong>rotation</strong> is the reason for day and night. Every 24 hours Earth completes one rotation.
+            <p >The third planet that <strong class="English"  >orbits</strong> the <strong class="English">Sun</strong> is <strong class="English">Earth</strong>.
+            It revolves around the Sun in an <strong class="English">eliptical </strong> orbit and takes about 365 days to complete one revolution around the <strong class="English">Sun</strong>.
+            Earth also rolates about its axis. This <strong class="English">rotation</strong> is the reason for day and night. Every 24 hours Earth completes one rotation.
             </p>
         </div>
 
         
         <div class="parallax-container">
-            <div class="parallax"><img src="CSS/img/space1.webp" class="responsive-img"></div>
+            <div class="parallax"><img src="CSS/img/universe1.jpg" class="responsive-img"></div>
         </div>
 
         <div class="section whitem #6B8DF2 ">
 
             <div class="row">
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn #F4DC97"><i class="material-icons left">cloud</i>try me</a>
+                    <a id="btnSun" class="waves-effect waves-light btn #F4DC97"><i class="material-icons left">wb_sunny</i>Sun</a>
                 </div>
 
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn #F4DC97"><i class="material-icons left">cloud</i>hey there</a>
+                    <a id="btnStar" class="waves-effect waves-light btn #F4DC97"><i class="material-icons left">stars</i>Stars</a>
                 </div>
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>hello</a>
+                    <a id="btnWorld" class="waves-effect waves-light btn"><i class="material-icons left">public</i>World</a>
                 </div>
             </div>
             <div class="row" id="Center-Part">
-                <div class="col s4">
-                    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>push me</a>
+                <div class="col s3">
+                    <a id="btnOrb" class="waves-effect waves-light btn"><i class="material-icons left">grain</i>Orbits</a>
                 </div>
-                <div class="col s4">
+                <div class="col s6">
                     <div id="earth" >
-                        <img src="CSS/img/planet.png"  alt="">
+                        <img id="ImgEarth" src="CSS/img/planet.png"  alt="">
                     </div>
                 </div>
-                <div class="col s4">
-                    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>one try</a>
+                <div class="col s3">
+                    <a id ="btnRotation" class="waves-effect waves-light btn"><i class="material-icons left">star_half</i>Rotation</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>try it again</a>
+                    <a id="btnBack" class="waves-effect waves-light btn"><i class="material-icons left">flare</i>try it again</a>
                 </div>
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>see the magic</a>
+                    <a  id="btnMoon"class="waves-effect waves-light btn"><i class="material-icons left">brightness_2</i>Moon</a>
                 </div>
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>wow !</a>
+                    <a id="btnWow" class="waves-effect waves-light btn"><i class="material-icons left">ac_unit</i>wow !</a>
                 </div>
             </div>
         </div>
 
         <div class="parallax-container">
             <div class="parallax">
-              <img src="CSS/img/space2.webp" alt="" class="responsive-img">
+              <img src="CSS/img/universe2.jpg" alt="" class="responsive-img">
             </div>
-          </div>
+        </div>
           
-
+        <h1 id="hide" class="Spanish"> Lección 1</h1>
         <div class="Paragraph card-panel hoverable" id="hide">
+            
             <p>
-            El tercer planeta que <strong>orbita</strong> alrededor del <strong>Sol</strong> es la <strong>Tierra</strong>.
-            Gira alrededor del Sol en una orbita <strong>eliptica </strong> y le toma alrededor de 365 dias completar una traslasion alrededor del sol.
-            La tierra tambien gira alrededor de su eje. Esta <strong>rotacion </strong> es la causante del dia y la noche. Cada 24 horas la Tierra completa una rotacion.
+            El tercer planeta que <strong class="Spanish">órbita</strong> alrededor del <strong class="Spanish">Sol</strong> es la <strong class="Spanish">Tierra</strong>.
+            Gira alrededor del Sol en una orbita <strong class="Spanish">elíptica </strong> y le toma alrededor de 365 dias completar una traslasion alrededor del sol.
+            La tierra tambien gira alrededor de su eje. Esta <strong class="Spanish">rotación </strong> es la causante del dia y la noche. Cada 24 horas la Tierra completa una rotacion.
             </p>
         </div>
        
+        <footer class="page-footer  indigo accent-2">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Earth Planet</h5>
+                  <p class="grey-text text-lighten-4">Our planet, Earth is the third planet from the Sun and the only astronomical object known to harbor life.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links and Facts</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#init">Lection 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#earth">Earth</a></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2023 Copyright
+              <a class="grey-text text-lighten-4 right" href="#!">Cristian</a>
+              </div>
+            </div>
+          </footer>
 
     </main>
 

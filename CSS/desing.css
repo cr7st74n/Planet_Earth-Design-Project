@@ -27,8 +27,17 @@ main {
 
 strong{
     color: #F4DC97;
+
 }
+
+strong:hover{
+    font-size: 1.2em; /* Increase the font size */
+    color: red; /* Change the text color to red */
+}
+
+
 .Paragraph {
+    font-size: 25px;
     color: white;
     margin: 25px;
     display: flex;
@@ -50,4 +59,10 @@ strong{
 
 #hide {
     /* display: ; */
+}
+
+#ImgEarth{
+    border-radius: 20px;
+    border-width: 10px;
+    border-style:double;
 }
